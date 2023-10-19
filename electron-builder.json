@@ -1,11 +1,10 @@
 {
-	"appId": "com.jackhumphries.socially",
+	"appId": "mattianoris.it",
 	"productName": "Socially",
 	"files": ["./build/**", "node_modules/**/*"],
 	"directories": {
 		"buildResources": "assets"
 	},
-	"copyright": "Copyright © 2021 JackHumphries",
 	"mac": {
 		"target": ["dmg"],
 		"icon": "./src/assets/icons/app-icons/mac/icon.icns",
