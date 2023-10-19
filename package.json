@@ -4,7 +4,7 @@
 	"private": true,
 	"license": "GPL-3.0-only",
 	"main": "build/electron.js",
-	"author": "Jack Humphries <me@jackhumphries.dev>",
+	"author": "Mattia Noris <mattianoris.business@gmail.com>",
 	"homepage": "./build/",
 	"description": "Group all of your socials into one window!",
 	"dependencies": {
