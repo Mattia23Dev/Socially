@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/JackHumphries9/Socially">
+  <a href="https://github.com/Mattia23Dev/Socially.git">
     <img src="/src/assets/icons/app-icons/png/1024x1024.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -45,18 +45,12 @@ Socially è un'applicazione che combina tutti i messaggi diretti e le chat dei s
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-First you need to install Node.JS and NPM. Then you can setup the project.
-
-### Installation
+Per una copia in locale, prima di tutto dovrete installare Node JS e NPM, successivamente:
 
 1. Clone the repo
 
 ```sh
-git clone https://github.com/JackHumphries9/Socially.git
+git clone https://github.com/Mattia23Dev/Socially.git
 ```
 
 2. Install NPM packages
@@ -65,86 +59,31 @@ git clone https://github.com/JackHumphries9/Socially.git
 npm install
 ```
 
-If you are going to develop this project, change line 6 in the package.json to:
-
+Se devi sviluppare il progetto, cambia la linea 6 del package.json a:
 ```json
 "main": "src/electron.js",
 ```
 
-and in the `src/electron.js` file, make sure that you set `isDev` to true (I will be fixing this to use the environment rather than manually):
+ E nel file `src/electron.js`, assicurati che hai settato 'isDev' su true:
 
 ```javascript
 let isDev = true;
 ```
 
-To run this project, you need to run the React server in one terminal:
+Per partire il progetto digitate sul terminale:
 
 ```sh
 npm start
 ```
 
-And then run the electron app:
+E poi l'app electron:
 
 ```sh
 npm run electron
 ```
 
-This repo contains two scripts (these scripts have been used on MacOS but should work on Linux):
-
-The build script executed by:
-
-```sh
-./build.sh
-```
-
-will build the React project then copy the `src/electron.js` and `src/preload.js` files over into the build folder. From there, electron-builder is ran to compile for all platforms (this may error out on Linux due to MacOS apps not being able to be signed).
-
-Building for MacOS may be problematic as the code was signed by me using a Provisioning profile. You may need to delete some parts of the electron-builder.json file in order to build it properly. (Possibly the provisionProfile field)
-
-The cleanup script executed by:
-
-```sh
-./cleanup.sh
-```
-
-<!-- Releses -->
-
-## Releases
-
-See the [releases](https://github.com/JackHumphries9/Socially/releases/) page for all releases and to download the binaries.
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-See the [open issues](https://github.com/JackHumphries9/Socially/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<!-- LICENSE -->
-
-## License
-
-Distributed under the GNU General Public License v3.0 License. See `LICENSE` for more information.
-
-<!-- CONTACT -->
-
 ## Contact
 
-Your Name - [@JackPHumphries](https://twitter.com/JackPHumphries) - me@jackhumphries.co.uk
-
-Project Link: [https://github.com/JackHumphries9/Socially](https://github.com/JackHumphries9/Socially)
-
-Website Link: [https://getsocially.app](https://getsocially.app)
+Mattia Noris - mattianoris.business@gmail.com
 
 [product-screenshot]: https://getsocially.app/assets/img/champnew.png
