@@ -8,7 +8,7 @@
   <h3 align="center">Socially</h3>
 
   <p align="center">
-    Group all of your socials into one window!
+    Tutti i social in una finestra!
   </p>
 </p>
 
@@ -33,8 +33,7 @@
 
 [![Socially Screen Shot][product-screenshot]](https://getsocially.app)
 
-Socially is an application which combines all of your social media DM's and chats into one single window. The aim of this app is to increase productivity and reduce the need for having multiple browser tabs open.
-
+Socially è un'applicazione che combina tutti i messaggi diretti e le chat dei social media in un'unica finestra. Lo scopo di questa app è aumentare la produttività e ridurre la necessità di aprire più schede del browser.
 ### Built With
 
 - [Electron](https://github.com/electron/electron)
